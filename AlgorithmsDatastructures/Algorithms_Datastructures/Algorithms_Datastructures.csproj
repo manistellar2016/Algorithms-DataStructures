@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Searching\SearchingAlgorithms.cs" />
+    <Compile Include="Algorithms\Sorting\SortAlgorithms.cs" />
     <Compile Include="Sample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Algorithms\" />
+    <Folder Include="Algorithms\BackTracking\" />
+    <Folder Include="Algorithms\DynamicProgramming\" />
     <Folder Include="Datastructures\" />
     <Folder Include="SystemDesign\" />
   </ItemGroup>
